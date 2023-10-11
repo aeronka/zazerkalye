@@ -1,4 +1,8 @@
 function ready() {
+    var protocol = document.location.protocol;
+
+    if (protocol == "http:") document.location.href = 'https://klara-shon.ru';
+
     var animateButton = function(e) {
 
       e.preventDefault;
