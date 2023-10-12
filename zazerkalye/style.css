@@ -147,7 +147,9 @@ li {
   height: 56px;
   width: 56px;
   border-radius: 50%;
-  border: 2px solid #ca5f64;
+  /*border: 2px solid #ca5f64;*/
+  /*border: 2px solid #8370ab;*/
+  border: 2px solid #9c9c9d;
   position: absolute;
   right: 60px;
   transform: rotate(325deg);
@@ -158,7 +160,9 @@ li {
   height: 36px;
   width: 36px;
   border-radius: 50%;
-  border: 1px solid #ca5f64;
+  /*border: 1px solid #ca5f64;*/
+  /*border: 1px solid #8370ab;*/
+  border: 1px solid #9c9c9d;
   top: 9px;
   left: 9px;
 }
@@ -166,9 +170,11 @@ li {
 .installment_text {
   position: absolute;
   color: #fff;
-  background-color: #db7e82;
+  /*background-color: #db7e82;*/
+  /*background-color: #7d69a7;*/
+  background-color: #9c9c9d;
   font-family: 'ContSans', Arial, sans-serif;
-  letter-spacing: -0.5px;
+  letter-spacing: -0.3px;
   padding: 0 4px;
   font-size: 14px;
   top: 20px;
@@ -189,6 +195,7 @@ li {
   font-weight: bold;
   text-decoration: none;
   color: #fff;
+  text-shadow: #c4c4c4 0px 0px 2px;
   line-height: 58px;
   border: none;
   cursor: pointer;
