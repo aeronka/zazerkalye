@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    /*display: block;*/
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    /*width: 100%;*/
+    height: 100vh;
+    /*margin: 0;
+    padding: 0;*/
+    
+  /*  background: #f0f0f0;
+    background: linear-gradient(to top, #f0f0f0, #b9b9b9);*/
+    background-color: #f0f0f0;
+    background: linear-gradient(#d8adad, transparent),
+        linear-gradient(to top left, #b9a659, transparent),
+        linear-gradient(to top right, #92b7d9, transparent);
+    background-blend-mode: screen;
+}
+
+.card {
+    position: relative;
+    height: 100vh;
+    aspect-ratio: 640/960;
+}
+
+.portrait {
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(to top, #1a171799, #f0f0f010 90%);
+}
+
+.info {
+    position: absolute;
+    right: 0;
+    bottom: 20%;
+    left: 0;
+}
+
+.name {
+    width: 100%;
+    font-size: 90px;
+    text-align: center;
+    color: #e0dddd;
+}
+
+.description {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 40px;
+    color: #e0dddd;
+    text-align: center;
+}
+
+.description a {
+    color: #e0dddd;
+}
+
+@media (max-width: 800px) {
+    .card {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    .name {
+        font-size: 40px;
+    }
+
+    .description {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 800px) and (orientation: landscape) {
+    .card {
+        justify-content: center;
+    }
+
+    .portrait {
+        width: unset;
+        height: 100%;
+    }
+}

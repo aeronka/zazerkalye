@@ -149,7 +149,7 @@ li {
   border-radius: 50%;
   /*border: 2px solid #ca5f64;*/
   /*border: 2px solid #8370ab;*/
-  border: 2px solid #9c9c9d;
+  border: 2px solid #b2b1b1;
   position: absolute;
   right: 60px;
   transform: rotate(325deg);
@@ -162,7 +162,7 @@ li {
   border-radius: 50%;
   /*border: 1px solid #ca5f64;*/
   /*border: 1px solid #8370ab;*/
-  border: 1px solid #9c9c9d;
+  border: 1px solid #b2b1b1;
   top: 9px;
   left: 9px;
 }
@@ -172,7 +172,7 @@ li {
   color: #fff;
   /*background-color: #db7e82;*/
   /*background-color: #7d69a7;*/
-  background-color: #9c9c9d;
+  background-color: #c1bdbd;
   font-family: 'ContSans', Arial, sans-serif;
   letter-spacing: -0.3px;
   padding: 0 4px;
@@ -195,7 +195,7 @@ li {
   font-weight: bold;
   text-decoration: none;
   color: #fff;
-  text-shadow: #c4c4c4 0px 0px 2px;
+  text-shadow: #c4c4c4 0px 0px 1px;
   line-height: 58px;
   border: none;
   cursor: pointer;
