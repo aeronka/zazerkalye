@@ -30,6 +30,7 @@ body {
 
 .packages {
   background-color: #efedf4;
+  padding: 50px 0;
 }
 
 .package {
@@ -40,6 +41,7 @@ body {
   border-radius: 111px;
   vertical-align: top;
   position: relative;
+  margin-top: 10px;
 }
 
 .package1 {
@@ -127,7 +129,7 @@ li {
 .prices {
   padding: 20px 0px 40px;
   color: #59389e;
-    font-family: 'ContSans', Arial, sans-serif;
+  font-family: 'ContSans', Arial, sans-serif;
   letter-spacing: -0.5px;
 }
 
@@ -139,7 +141,39 @@ li {
 
 .full_price {
   text-decoration: line-through;
-  /*margin-left: 80px;*/
+}
+
+.installment {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  border: 2px solid #ca5f64;
+  position: absolute;
+  right: 60px;
+  transform: rotate(325deg);
+}
+
+.installment_circle {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid #ca5f64;
+  top: 9px;
+  left: 9px;
+}
+
+.installment_text {
+  position: absolute;
+  color: #fff;
+  background-color: #db7e82;
+  font-family: 'ContSans', Arial, sans-serif;
+  letter-spacing: -0.5px;
+
+  padding: 0 4px;
+  font-size: 15px;
+  top: 20px;
+  right: -18px;
 }
 
 .preregister {
