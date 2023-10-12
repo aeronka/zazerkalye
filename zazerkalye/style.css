@@ -144,8 +144,8 @@ li {
 }
 
 .installment {
-  height: 60px;
-  width: 60px;
+  height: 56px;
+  width: 56px;
   border-radius: 50%;
   border: 2px solid #ca5f64;
   position: absolute;
@@ -155,8 +155,8 @@ li {
 
 .installment_circle {
   position: absolute;
-  height: 40px;
-  width: 40px;
+  height: 36px;
+  width: 36px;
   border-radius: 50%;
   border: 1px solid #ca5f64;
   top: 9px;
@@ -169,11 +169,10 @@ li {
   background-color: #db7e82;
   font-family: 'ContSans', Arial, sans-serif;
   letter-spacing: -0.5px;
-
   padding: 0 4px;
-  font-size: 15px;
+  font-size: 14px;
   top: 20px;
-  right: -18px;
+  right: -17px;
 }
 
 .preregister {
