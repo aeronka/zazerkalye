@@ -1,18 +1,11 @@
 body {
     margin: 0;
-    /*display: block;*/
 }
 
 .page {
     display: flex;
     justify-content: center;
-    /*width: 100%;*/
     height: 100vh;
-    /*margin: 0;
-    padding: 0;*/
-    
-  /*  background: #f0f0f0;
-    background: linear-gradient(to top, #f0f0f0, #b9b9b9);*/
     background-color: #f0f0f0;
     background: linear-gradient(#d8adad, transparent),
         linear-gradient(to top left, #b9a659, transparent),
@@ -44,22 +37,22 @@ body {
     right: 0;
     bottom: 20%;
     left: 0;
+    letter-spacing: 1px;
+    color: #e6e6e6;
+    text-align: center;
 }
 
 .name {
     width: 100%;
     font-size: 90px;
-    text-align: center;
-    color: #e0dddd;
 }
 
 .description {
-    margin: 0;
+    margin: 10px 0 0;
     padding: 0;
     list-style-type: none;
     font-size: 40px;
-    color: #e0dddd;
-    text-align: center;
+    text-shadow: 1px 0px #626161;
 }
 
 .description a {
@@ -78,7 +71,7 @@ body {
     }
 
     .description {
-        font-size: 30px;
+        font-size: 20px;
     }
 }
 
@@ -90,5 +83,13 @@ body {
     .portrait {
         width: unset;
         height: 100%;
+    }
+
+    .name {
+        font-size: 28px;
+    }
+
+    .description {
+        font-size: 14px;
     }
 }
