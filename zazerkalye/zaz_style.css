@@ -59,9 +59,26 @@ body {
 }
 
 .welcome {
+  padding: 60px 0 24px;
+}
+
+.welcome_wrapper {
+  width: 792px;
+  /*text-align: end;*/
+  display: inline-block;
+}
+
+.welcome_title {
   font-size: 34px;
   font-weight: bold;
   color: #e4df49;
+}
+
+.start {
+  font-size: 20px;
+  font-weight: normal;
+  color: #918e8e;
+  padding-top: 14px;
 }
 
 .title {
