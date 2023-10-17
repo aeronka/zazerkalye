@@ -64,7 +64,6 @@ body {
 
 .welcome_wrapper {
   width: 792px;
-  /*text-align: end;*/
   display: inline-block;
 }
 
@@ -77,8 +76,13 @@ body {
 .start {
   font-size: 20px;
   font-weight: normal;
-  color: #918e8e;
-  padding-top: 14px;
+  color: #9c9898;
+  margin-top: 24px;
+  border: 1px solid #9c9898;
+  border-radius: 22px;
+  width: 222px;
+  padding: 4px 0;
+  display: inline-block;
 }
 
 .title {
