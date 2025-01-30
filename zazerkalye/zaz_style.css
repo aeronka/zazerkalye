@@ -37,75 +37,101 @@ body {
   padding: 60px 0 90px;
 }
 
+.program_practice {
+  padding: 60px 0 54px;
+}
+
 .package {
-  display: inline-block;
-  width: 414px;
-  height: 955px;
+  width: 650px;
   background-color: #ffffff;
-  border-radius: 111px;
+  border-radius: 162px;
   vertical-align: top;
   position: relative;
+  
   margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
 }
 
 .package1 {
-  margin-left: 12px;
-  margin-right: 22px;
+  height: 1110px;
 }
 
 .package2 {
-  margin-right: 12px;
-  margin-left: 22px;
+  height: 782px;
+}
+
+.package3 {
+  height: 684px;
+  margin-bottom: 0;
 }
 
 .welcome {
-  padding: 60px 0 24px;
+  padding: 60px 0 28px;
 }
 
 .welcome_wrapper {
-  width: 792px;
   display: inline-block;
 }
 
 .welcome_title {
-  font-size: 34px;
+  font-size: 39px;
   font-weight: bold;
-  color: #e4df49;
+  color: #d5d045;
 }
 
 .start {
-  font-size: 20px;
+  font-size: 21px;
   font-weight: normal;
-  color: #9c9898;
-  margin-top: 24px;
+  color: #908e8e;
+  margin-top: 26px;
   border: 1px solid #9c9898;
   border-radius: 22px;
   width: 222px;
-  padding: 4px 0;
+  padding: 5px 0;
   display: inline-block;
 }
 
 .title {
-  font-size: 28px;
+  font-size: 37px;
   color: #59389e;
-  padding: 60px 0px 40px;
+  padding: 60px 0px 54px;
   position: relative;
 }
 
 .title_online:after {
   content: " на удалёнке";
   position: absolute;
-  margin: 33px;
+  margin: 42px;
   left: 0;
   right: 0;
-  font-size: 20px;
+  font-size: 23px;
+}
+
+.title_offline:after {
+  content: " в Москве";
+  position: absolute;
+  margin: 42px;
+  left: 0;
+  right: 0;
+  font-size: 23px;
+}
+
+.title_vip:after {
+  content: "VIP";
+  position: absolute;
+  margin: 42px;
+  left: 0;
+  right: 0;
+  font-size: 23px;
 }
 
 .package_content {
   text-align: left;
   color: #282828;
-  padding: 0px 59px 28px 74px;
-  font-size: 17px;
+  padding: 0px 68px 28px 100px;
+  font-size: 24px;
   line-height: 1.4;
   margin: 0;
 }
@@ -117,10 +143,22 @@ li {
 
 .package_content_base:before {
   color: #59389e;
-  font-size: 15px;
+  font-size: 18px;
   content: "\2714\fe0e";
   position: absolute;
-  margin: 0 -23px;
+  margin: 5px -24px;
+}
+
+.package_content_uniq:before {
+  content: '';
+  height: 34px;
+  width: 34px;
+  background-image: url(./zaz_fire.png);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  position: absolute;
+  margin: -4px -40px;
+  font-size: 18px;
 }
 
 .package_content_base:first-child,
@@ -134,7 +172,7 @@ li {
 }
 
 .package_content_uniq_details {
-  font-size: 16px;
+  font-size: 21px;
 }
 
 .footer {
@@ -148,63 +186,58 @@ li {
 .separator {
   display: inline-block;
   height: 3px;
-  width: 300px;
+  width: 480px;
   background: linear-gradient(to left, #ffffff 0%, #5a39a194 50%, #ffffff 100%);
 }
 
 .prices {
-  padding: 20px 0px 40px;
+  padding: 24px 0px 46px;
   color: #59389e;
   font-family: 'ContSans', Arial, sans-serif;
   letter-spacing: -0.5px;
 }
 
 .current_price {
-  font-size: 26px;
+  font-size: 29px;
   font-weight: bold;
   padding: 5px 0;
 }
 
 .full_price {
   text-decoration: line-through;
+  font-size: 22px;
 }
 
 .installment {
-  height: 56px;
-  width: 56px;
+  height: 58px;
+  width: 58px;
   border-radius: 50%;
-  /*border: 2px solid #ca5f64;*/
-  /*border: 2px solid #8370ab;*/
   border: 2px solid #b2b1b1;
   position: absolute;
-  right: 60px;
+  right: 114px;
   transform: rotate(325deg);
 }
 
 .installment_circle {
   position: absolute;
-  height: 36px;
-  width: 36px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
-  /*border: 1px solid #ca5f64;*/
-  /*border: 1px solid #8370ab;*/
   border: 1px solid #b2b1b1;
-  top: 9px;
-  left: 9px;
+  top: 8px;
+  left: 8px;
 }
 
 .installment_text {
   position: absolute;
   color: #fff;
-  /*background-color: #db7e82;*/
-  /*background-color: #7d69a7;*/
   background-color: #c1bdbd;
   font-family: 'ContSans', Arial, sans-serif;
   letter-spacing: -0.3px;
   padding: 0 4px;
-  font-size: 14px;
+  font-size: 16px;
   top: 20px;
-  right: -17px;
+  right: -21px;
 }
 
 .preregister {
@@ -213,11 +246,11 @@ li {
 
 .preregister_link {
   display: inline-block;
-  background-color: #eae52c;
+  background-color: #e0db54;
   border-radius: 166px;
-  width: 320px;
+  width: 328px;
   height: 58px;
-  font-size: 26px;
+  font-size: 28px;
   font-weight: bold;
   text-decoration: none;
   color: #fff;
@@ -309,23 +342,37 @@ li {
 }
 
 .program_title {
-  font-size: 31px;
+  font-size: 33px;
   font-weight: bold;
   padding: 0 0 37px;
 }
 
 .program_content {
-  display: inline-block;
-  width: 636px;
-  height: 1680px;
+  width: 858px;
   background-color: #efedf4;
   border-radius: 111px;
-  font-size: 17.5px;
+  /* font-size: 24px; */
   line-height: 1.4;
+
+  padding-top: 10px;
+  padding-bottom: 44px;
+  margin: 0 auto;
 }
 
 .program_list {
   padding: 0 80px;
+}
+
+.program_content_practice {
+  width: 858px;
+  border: 2px solid #5a39a194;
+  border-radius: 111px;
+  font-size: 24px;
+  line-height: 1.4;
+
+  padding-top: 10px;
+  padding-bottom: 44px;
+  margin: 0 auto;
 }
 
 .list_item_title {
@@ -338,4 +385,13 @@ li {
 
 .list_item_content {
   text-align: left;
+}
+
+.program_content_practice,
+.program_list_item {
+  font-size: 24px;
+}
+
+.program_practice .program_list_item {
+  padding-bottom: 10px;
 }
