@@ -38,7 +38,7 @@ body {
 }
 
 .program_practice {
-  padding: 60px 0 54px;
+  padding: 60px 0 24px;
 }
 
 .package {
@@ -246,14 +246,16 @@ li {
 
 .preregister_link {
   display: inline-block;
-  background-color: #e0db54;
+  /* background-color: #e0db54; */
+  background-color: #e1dd61;
   border-radius: 166px;
-  width: 328px;
-  height: 58px;
-  font-size: 28px;
+  width: 364px;
+  height: 66px;
+  font-size: 29px;
   font-weight: bold;
   text-decoration: none;
-  color: #fff;
+  /* color: #fff; */
+  color: #7864a3;
   text-shadow: #c4c4c4 0px 0px 1px;
   line-height: 58px;
   border: none;
@@ -393,5 +395,5 @@ li {
 }
 
 .program_practice .program_list_item {
-  padding-bottom: 10px;
+  padding-bottom: 12px;
 }
