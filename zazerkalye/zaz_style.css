@@ -349,6 +349,19 @@ li {
   padding: 0 0 37px;
 }
 
+.title_practice {
+  padding-bottom: 60px;
+}
+
+.title_practice:after {
+  content: "(все встречи организованы в выходные дни)";
+  position: absolute;
+  margin: 42px;
+  left: 0;
+  right: 0;
+  font-size: 20px;
+}
+
 .program_content {
   width: 858px;
   background-color: #efedf4;
